@@ -1,0 +1,22 @@
+.bar_container{
+    display: grid;
+    grid-template-columns: 15% 85%;    
+    margin-top:56px;
+}
+.bar_container>div{
+    height:1000px;
+    border:1px solid rgb(165, 162, 162);
+}
+.leftBarEachDiv{
+    height:40px;
+    width:100%;
+    padding: 5px 10px; 
+}
+.leftBarEachDiv:first-child{
+   background-color:rgb(234, 215, 221);
+   color:rgb(129,20,52);
+   border-right:2px solid rgb(129,20,52);
+}
+.leftBarEachDiv span{
+    padding-left:20px
+}
