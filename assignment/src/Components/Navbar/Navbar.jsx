@@ -1,6 +1,6 @@
 import React from 'react'
 import style from "./navbar.module.css"
-import bell from "../../images/bell.png"
+import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined';
 
 let arrow = ">"
 
@@ -14,7 +14,7 @@ const Navbar = () => {
 
       </div>
       <div className={style.bellimage}>
-        <img src={bell} alt="bell_image" />
+        <NotificationsOutlinedIcon/>
       </div>
       <div className={style.userData}>
           <p>Nicholas D.</p>

@@ -7,6 +7,7 @@ import GradingOutlinedIcon from '@mui/icons-material/GradingOutlined';
 import CancelOutlinedIcon from '@mui/icons-material/CancelOutlined';
 import RefreshOutlinedIcon from '@mui/icons-material/RefreshOutlined';
 import ShowChartOutlinedIcon from '@mui/icons-material/ShowChartOutlined';
+import Chart from '../Chart/Chart';
 
 const Rightbar = () => {
   return (
@@ -36,7 +37,7 @@ const Rightbar = () => {
             </div>
         </div>
         {/* sales detail */}
-        <div>Sales details</div>
+        <div className={style.rightBarTitle}>Sales details</div>
         <div className={style.salesDetailsContainer}>
             <div className={style.salesDetails_upperPart}>
                 <div>
@@ -52,7 +53,7 @@ const Rightbar = () => {
                 <div className={style.salesDetails_lowerPart_firstChild}>
                     <div>$74,729.00</div>
                     <div><ShowChartOutlinedIcon/>+21% from last week</div>
-                    <div></div>
+                    <div><Chart/></div>
                 </div>
                 <div className={style.salesDetails_lowerPart_lastChild}>
                     <div>Total Profit</div>
@@ -63,7 +64,9 @@ const Rightbar = () => {
                 </div>
             </div>
         </div>
-
+        {/* inventory */}
+        <div className={style.rightBarTitle}>Inventory</div>
+        <div></div>
     </div>
   )
 }

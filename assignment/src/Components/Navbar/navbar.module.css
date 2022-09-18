@@ -24,7 +24,7 @@
     background: #FFFFFF;
     border-radius: 4px;
 }
-.bellimage>img{
+.bellimage{
     height:25px;
     width:25px;
     position: absolute;
@@ -33,6 +33,7 @@
     top: 28.57%;
     bottom: 28.57%;
     cursor: pointer;
+    color:white
 }
 .userData{
     display: flex;
