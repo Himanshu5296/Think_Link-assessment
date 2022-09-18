@@ -8,6 +8,7 @@ import CancelOutlinedIcon from '@mui/icons-material/CancelOutlined';
 import RefreshOutlinedIcon from '@mui/icons-material/RefreshOutlined';
 import ShowChartOutlinedIcon from '@mui/icons-material/ShowChartOutlined';
 import Chart from '../Chart/Chart';
+import Inventory from './Inventory';
 
 const Rightbar = () => {
   return (
@@ -66,7 +67,9 @@ const Rightbar = () => {
         </div>
         {/* inventory */}
         <div className={style.rightBarTitle}>Inventory</div>
-        <div></div>
+        <div>
+            <Inventory/>
+        </div>
     </div>
   )
 }

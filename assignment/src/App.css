@@ -6,4 +6,32 @@
   height:300px !important;
   margin-top:10px !important
 }
+table{
+  margin-top:10px;
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+  width:auto;
+  text-align: left;
+  padding-left:10px;
+  height:35px
+}
+tr:hover {
+  background-color: rgb(234,215,221);
+  color:white;
+}
+tr>td:nth-child(2){
+  width:300px;
+  padding-top:10px;
+  padding-left:10px;
+}
+tr>td:nth-child(3),tr>td:nth-child(4),tr>td:nth-child(5),tr>td:nth-child(7),tr>td:nth-child(8){
+  width: 100px
+}
+tr>td:nth-child(6){
+  width:180px
+}
+tr p{
+  color:rgb(175, 169, 169);
+}
 
